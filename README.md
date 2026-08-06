@@ -3,7 +3,7 @@ Bibliothèque PxGraph_ILI9341_Shield
 
 
 ## Limites
-FOnctionne uniquement avec un shield à base de ILI9341, et donc sur AVR Uno ou Mega.
+Fonctionne uniquement avec un shield à base de ILI9341, et donc sur AVR Uno ou Mega.
 Pour un shield à base de ST7781, voit PxGraph_ST7781_Shield.
 
 
