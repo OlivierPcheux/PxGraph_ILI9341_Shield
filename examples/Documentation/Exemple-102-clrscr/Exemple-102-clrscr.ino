@@ -21,6 +21,7 @@
 // Ici chaque boucle efface l'écran 4 fois (3 façons de le faire)
 
 #include <PxGraph_ILI9341_Shield.h> // Voir http://arduino.dansetrad.fr/PxGraph
+
 void setup() 
 {
   setGraphMode(PAYSAGE); // Initialisation de l'écran

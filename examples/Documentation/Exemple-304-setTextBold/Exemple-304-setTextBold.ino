@@ -22,6 +22,7 @@
 // supperposent à partir de la taille 7.
 
 #include <PxGraph_ILI9341_Shield.h> // Voir http://arduino.dansetrad.fr/PxGraph
+
 void setup() 
 {
   setGraphMode(PAYSAGE); // Initialisation générale

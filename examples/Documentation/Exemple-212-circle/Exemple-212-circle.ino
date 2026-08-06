@@ -1,3 +1,4 @@
+
 // Version 1.0.0
 
 //###########################################################################
@@ -21,6 +22,7 @@
 // Les plus grands cercles dépassent et seul ce qui tient est affiché.
 
 #include <PxGraph_ILI9341_Shield.h> // Voir http://arduino.dansetrad.fr/PxGraph
+
 void setup() 
 {
   setGraphMode(PAYSAGE);

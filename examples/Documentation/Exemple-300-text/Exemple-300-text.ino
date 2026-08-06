@@ -21,6 +21,7 @@
 // Pour ce dernier, est affiché 3 lignes de 3 caractères, comme une grille de morpion.
 
 #include <PxGraph_ILI9341_Shield.h> // Voir http://arduino.dansetrad.fr/PxGraph
+
 void setup() 
 {
   setGraphMode(PAYSAGE); // Initialisation générale

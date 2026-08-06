@@ -21,6 +21,7 @@
 // mettant "courbe" pour le paramètre debut_fin, on a debut=NORD, et fin=NORD_EST puis EST...
 
 #include <PxGraph_ILI9341_Shield.h> // Voir http://arduino.dansetrad.fr/PxGraph
+
 void setup() 
 {
   setGraphMode(PAYSAGE);
