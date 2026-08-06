@@ -19,6 +19,7 @@
 // le reste de l'écran de points bariolés
 
 #include <PxGraph_ILI9341_Shield.h> // Voir http://arduino.dansetrad.fr/PxGraph
+
 long longueurBarre; // Pour le calcul de la barre de progression
 void setup() 
 {
