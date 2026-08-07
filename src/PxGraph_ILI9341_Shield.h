@@ -291,28 +291,10 @@ byte bmpSave(String fileName, int x1 = -1, int y1 = -1, int x2 = -1, int y2 = -1
 void screenPrint(void); // Copie d'écran sur SD
 
 
-//############################ Graphiques évolués ###########################
-void croixCurseur(int x, int y); // Dessine une croix fugitive
-
-
 //######################### Fonctions de bas niveau #########################
 void writeRegister(byte registre); // Valide un registres de l'afficheur
 void writeData8(byte donnee); // Écrit un octet de donnée dans l'afficheur
 void writeData16(word donnee); // Écrit un word de donnée dans l'afficheur
 byte readData8(void); // Lit un byte de donnée de l'afficheur
-
-
-
-//###########################################################################
-//##                            Avec MTobjects                             ##
-//###########################################################################
-
-//############################ Graphiques évolués ###########################
-void croixCurseur(int x, int y); // Dessine une croix fugitive
-String clavier40(int x1, int y1, String message); // Saisie d'une chaine de caractères
-void maison(byte NbBoutonsGauche = 0, byte NbBoutonsDroite = 1); // Pour les démos
-void pourBoutonTexte(String texte); // Simplification pour dessiner un bouton texte
-
-
 
 #endif
