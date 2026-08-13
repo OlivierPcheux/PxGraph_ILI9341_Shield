@@ -12,7 +12,7 @@
 //###########################################################################
 
 
-// Ce progrmme permet de tracer le dépalcement du stylet en utilisant getX et getY
+// Ce programme permet de tracer le déplacement du stylet en utilisant getX et getY
 
 #include <MTobjects.h> // V1.2.0 Voir http://arduino.dansetrad.fr/MTobjects
 #include <PxGraph_ILI9341_Shield.h> // V1.0.0  Voir http://arduino.dansetrad.fr/PxGraph_ILI9341_Shield
@@ -26,9 +26,9 @@ boolean crayonLeve; // true si on a levé le stylet
 // Initialisation
 void setup()
 {
-  // Initialisation de la bibliotèque graphique de l'écran
+  // Initialisation de la bibliothèque graphique de l'écran
   setGraphMode(PAYSAGE);
-  // La ligne suivante doit être corrigée par le résultat de l'étallonnage (Exemple-600-Etalonnage-shield)
+  // La ligne suivante doit être corrigée par le résultat de l'étalonnage (Exemple-600-Etalonnage-shield)
   TouchPad.calibrate(PAYSAGE, largeur_ecran 320, hauteur_ecran 240, x_gauche 941, y_haut 924, x_droite 135, y_bas 305);
   crayonLeve = true;
   text("Dessinez sur l'écran"); // Ecriture de la consigne sur l'écran
