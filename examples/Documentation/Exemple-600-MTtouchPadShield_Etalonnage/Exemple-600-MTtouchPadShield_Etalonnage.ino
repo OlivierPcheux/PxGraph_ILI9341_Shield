@@ -12,7 +12,7 @@
 //###########################################################################
 
 
-// Ce progrmme permet d'étalonner le stylet pour un shield Uno 240x320
+// Ce programme permet d'étalonner le stylet pour un shield Uno 240x320
 
 // A changer éventuellement par l'utilisateur
 #define BAUDS 115200 // A changer éventuellement
